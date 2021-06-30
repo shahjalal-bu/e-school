@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 1.6rem;
+}
+
+
+.btn-link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.btn-common{
+    background: #21B573 !important;
+    border-radius: 3rem;
+    padding: 0.8rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.8rem;
+}
+
+header{
+    background: #F0FFF0;
+}
+
+img{
+    width: 100%;
+}
+
+.logo{
+    width: 19rem;
+}
+.navbar{
+    background: #F0FFF0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 5px 0px #ddd;
+}
+.navbar-collapse{
+    justify-content:flex-end !important;
+}
+.nav-link{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    color: #000 !important;
+}
+
+.imgBx{
+    padding: 2rem;
+
+}
+.hero-text{
+    line-height: 2;
+    padding-top: 4rem;
+}
+
+.hero-text h5{
+    color: #FD511A;
+    font-size: 2rem;
+
+}
+.hero-text h1{
+    font-size: 4.8rem;
+
+}
+.hero-text span{
+    color: #21B573;
+
+}
+.hero-text p{
+    font-size: 1.4rem;
+
+}
+.hero-text .btn{
+    margin-top: 1rem;
+
+}
+.stat{
+    text-align: center;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem lightgray;
+    
+}
+
+
+.stat-icon{
+    width: 30%;
+    margin: 0.5rem auto;
+}
+.stat h2{
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+.stat p{
+    margin-top: -1rem;
+}
+.card{
+    border: 0;
+}
+.card > div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem 0.6rem lightgray;
+
+}
+.card-body{
+    padding: 0;
+    padding-top: 1rem;
+}
+
+.testimonial{
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.5rem;
+}
+
+.man{
+    width: 30rem;
+}
+
+footer{
+    background: #282531;
+    color: #fff;
+    padding: 1rem;
+}
+
+footer p{
+    padding: 0;
+    margin: 0;
+    margin-top: 3rem !important;
+}
+
+
+
+.stat:hover{
+    box-shadow: 0.5rem 0.5rem 1rem gray;
+    transition: all 0.8s ease-in-out;  
+}
+
+.card > div:hover{
+    box-shadow: 0.5rem 0.5rem 10rem gray;
+    transition: all 0.8s ease-in-out; 
+
+}
+
+@media (max-width: 768px) { 
+
+    .testimonial{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .man{
+        width: 10rem;
+        margin: 0 auto;
+    
+    }
+    .man-text{
+        width: 100%;
+        font-size: 1.3rem;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+    footer{
+        font-size: 1.3rem;
+    }
+    .footer-text{
+        margin-bottom: 10px;
+    }
+    footer strong{
+        box-shadow: 0 2px 10px #00000073;
+        padding: 3px 10px;
+        border-radius: 10px;
+        
+    }
+    .list{
+        /* margin-top: 20px; */
+        padding: 10px 10px;
+    }
+
+    .hero-text{
+        margin: 5px !important;
+        padding: 0;
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero-text h5{
+        font-size: 20px;
+    }
+    .hero-text h1{
+        font-size: 30px;
+    }
+    .hero-text p{
+        font-size: 16px;
+    }
+
+
+    header .container .row{
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        background: #F0FFF0;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 1px 5px 0px #ddd;
+    }
+
+ }
